@@ -343,9 +343,9 @@ article section:nth-of-type(1n) figcaption
 		var canvas = document.getElementById('circle');
 		var ctx = canvas.getContext('2d');
 
-		ctx.arc(14,14,14,0,Math.PI*2,true);
-		ctx.fillStyle = "#" + Math.floor(Math.random()*256*256*256).toString(16);
-		ctx.fill();
+		ctx.arc(14,14,14,0,Math.PI*2,true);//半径14の円を描写
+		ctx.fillStyle = "#" + Math.floor(Math.random()*256*256*256).toString(16);//塗りつぶしはランダム色
+		ctx.fill();//塗りつぶしを実行
 			}
 </script>
 
